@@ -153,9 +153,7 @@ class EvilCircle extends Shape{
         }
 
         if (count === 0){
-          setTimeout(() =>{
-            alert("Congratulations 🎉 you finished the game 😊");
-          }, 1000);
+          document.getElementById('popup').classList.remove('hidden')
         }
 
 
